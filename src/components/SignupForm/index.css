@@ -1,0 +1,87 @@
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 90%;
+  max-width: 1110px;
+  margin: auto;
+  padding: 24px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .signup-form-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.signup-website-logo-mobile-image {
+  width: 165px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .signup-website-logo-mobile-image {
+    display: none;
+  }
+}
+
+.signup-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 420px;
+  padding: 28px;
+  border-radius: 20px;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.12);
+  background: #ffffff;
+}
+
+@media screen and (min-width: 992px) {
+  .signup-card {
+    padding: 40px;
+  }
+}
+
+.signup-website-logo-desktop-image {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .signup-website-logo-desktop-image {
+    display: none;
+  }
+}
+
+.signup-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  line-height: 1.2;
+  color: #0f172a;
+  margin: 0 0 8px;
+}
+
+.signup-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.6;
+  color: #64748b;
+  margin: 0 0 18px;
+}
+
+.auth-switch-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  text-align: center;
+  margin: 14px 0 0;
+}
+
+.auth-switch-link {
+  color: #0b69ff;
+  font-weight: 700;
+  text-decoration: none;
+}

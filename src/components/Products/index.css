@@ -1,0 +1,13 @@
+.product-sections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+}
+@media screen and (min-width: 992px) {
+  .product-sections {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
